@@ -1,12 +1,3 @@
-You're very close! The content is solid, but a few **important corrections** will make your `README.md` more professional, functional, and clean. Here's a **corrected and polished version** with:
-
-- Fixed markdown syntax (especially for links, code blocks, and the folder tree)
-- Correct live demo URL
-- Proper formatting of the code and headings
-- Correct use of markdown lists and backticks
-
----
-
 ```markdown
 # AK Portfolio – Professional Portfolio Website
 
