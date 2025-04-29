@@ -1,81 +1,87 @@
 ```markdown
-# AK Portfolio – Professional Portfolio Website
+# AK Portfolio – Professional Web Developer Portfolio
 
-![Portfolio Preview](https://github.com/user-attachments/assets/18ef8f1e-a1c8-43b9-b228-67b581c8f050)
+![Portfolio Preview](./assets/images/portfolio-screenshot.png) *Replace with your actual screenshot*
 
-A modern, responsive portfolio website built with HTML, CSS, and JavaScript to showcase my professional work, skills, and experience.
+A modern, responsive portfolio showcasing my frontend development skills, projects, and professional experience.
 
 ## 🌟 Live Demo
-[🔗 View Live Portfolio](https://ahmedkhaled51.github.io/AhmedKhaled51/)
+[👉 Visit Live Portfolio](https://ahmedkhaled51.github.io/AhmedKhaled51/)
 
-## 🚀 Features
-- **Responsive Design** – Works flawlessly on all devices
-- **Interactive Elements** – Animated navigation, skill visualizations
-- **Project Showcase** – Highlight your best work with filters
-- **Contact Form** – Integrated with Google Apps Script
-- **Dark/Light Mode** – Easy on the eyes (optional - add if implemented)
-- **Performance Optimized** – Fast loading times
+## 🚀 Key Features
+| Feature | Description |
+|---------|-------------|
+| **Responsive Layout** | Fully adaptive design for all devices |
+| **Interactive UI** | Smooth animations and transitions |
+| **Project Gallery** | Filterable project showcase |
+| **Contact System** | Form with Google Apps Script integration |
+| **Performance** | Optimized for fast loading |
 
-## 🛠️ Built With
-- **Frontend**: HTML5, CSS3, JavaScript
-- **Icons**: [Boxicons](https://boxicons.com/)
-- **Hosting**: GitHub Pages
-- **Form Handling**: Google Apps Script
+## 🛠 Tech Stack
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=flat&logo=githubpages&logoColor=white)
 
-## 📂 Project Structure
-```
+## 🏗 Project Structure
+```text
 ak-portfolio/
-├── index.html         # Main landing page
-├── about.html         # Professional background
-├── services.html      # Services offered
-├── portfolio.html     # Project showcase
-├── contact.html       # Contact form
+├── index.html          # Main entry point
+├── about.html          # Bio & timeline
+├── services.html       # Offered services
+├── portfolio.html      # Project showcase
+├── contact.html        # Contact form
 ├── assets/
-│   ├── css/           # Stylesheets
-│   ├── js/            # JavaScript files
-│   └── images/        # All visual assets
-├── README.md          # This file
-└── LICENSE            # MIT License
+│   ├── css/            # All stylesheets
+│   ├── js/             # JavaScript modules
+│   └── images/         # Assets & screenshots
+└── LICENSE             # MIT License
 ```
 
-## 🎨 Design Highlights
-- **Color Scheme** – Professional dark theme with accent colors
-- **Animations** – Subtle hover effects and transitions
-- **Typography** – Modern, readable font pairing
-- **Layout** – Clean grid-based organization
-
-## 🔧 Installation
-To run locally:
-
+## 🛠 Setup & Deployment
+1. Clone repository:
 ```bash
-git clone https://github.com/ahmedkhaled51/AhmedKhaled51.git
+git clone https://github.com/Ahmedkhaled51/AhmedKhaled51.git
 cd AhmedKhaled51
 ```
+2. Open in browser or use Live Server extension
 
-Then open `index.html` in your browser or use a live server.
+**Deploy to GitHub Pages:**
+- Push to `main` branch
+- Enable GitHub Pages in repo settings
 
 ## 📝 Customization Guide
-- Replace placeholder content in HTML files
-- Update images in `/assets/images/`
-- Modify colors in `assets/css/styles.css`
-- Add/remove projects in `portfolio.html`
-- Update contact form script URL in `contact.html`
+1. Update personal info in HTML files
+2. Replace placeholder images
+3. Modify color scheme in CSS:
+```css
+:root {
+  --primary: #15ad15;
+  --background: #020817; 
+}
+```
+4. Add/remove projects in portfolio section
 
-## 📬 Contact Form Setup
-1. Create a Google Apps Script to handle submissions.
-2. Replace the form action in `contact.html`:
-
+## 📬 Contact Integration
+To enable the contact form:
+1. Create Google Apps Script
+2. Update form action:
 ```html
 <form action="YOUR_SCRIPT_URL" method="POST">
 ```
 
 ## 📜 License
-Distributed under the MIT License. See `LICENSE` for more information.
+MIT Licensed - See [LICENSE](./LICENSE) for details.
 
-## 📧 Contact
-**Ahmed Khaled**  
-📧 [ahmedkhaled5186@gmail.com](mailto:ahmedkhaled5186@gmail.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/ahmedkhaled04/)  
-🐙 [GitHub](https://github.com/Ahmedkhaled51)
-```
-
+## 📍 Connect With Me
+<p align="center">
+  <a href="mailto:ahmedkhaled5186@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  </a>
+  <a href="https://www.linkedin.com/in/ahmedkhaled04/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="https://github.com/Ahmedkhaled51">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+</p>
