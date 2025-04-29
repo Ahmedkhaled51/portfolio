@@ -1,7 +1,8 @@
-```markdown
+
 # AK Portfolio – Professional Web Developer Portfolio
 
-![Portfolio Preview](./assets/images/portfolio-screenshot.png) *Replace with your actual screenshot*
+![Portfolio Preview](![image](https://github.com/user-attachments/assets/bb960928-071f-42c2-96d4-36509733fee9)
+
 
 A modern, responsive portfolio showcasing my frontend development skills, projects, and professional experience.
 
