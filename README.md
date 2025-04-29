@@ -43,7 +43,7 @@ ak-portfolio/
 1. Clone repository:
 ```bash
 git clone https://github.com/Ahmedkhaled51/AhmedKhaled51.git
-cd AhmedKhaled51
+cd porfolio
 ```
 2. Open in browser or use Live Server extension
 
