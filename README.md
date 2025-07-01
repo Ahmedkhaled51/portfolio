@@ -7,7 +7,7 @@
 A modern, responsive portfolio showcasing my frontend development skills, projects, and professional experience.
 
 ## 🌟 Live Demo
-[👉 Visit Live Portfolio]([https://ahmedkhaled51.github.io/portfolio/])
+[👉 Visit Live Portfolio](https://ahmedkhaled51.github.io/portfolio/)
 
 ## 🚀 Key Features
 | Feature | Description |
