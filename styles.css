@@ -136,7 +136,15 @@ body {
   color: var(--primary);
   font-weight: bold;
   text-shadow: 0 0 10px rgba(76, 175, 80, 0.5);
-};
+}
+
+.hero-description {
+  font-size: 1.25rem;
+  color: var(--muted-foreground);
+  margin: 1.5rem 0;
+  max-width: 600px;
+  line-height: 1.6;
+}
 
 .social-links {
   display: flex;
@@ -227,26 +235,77 @@ body {
 .services-header {
   text-align: center;
   margin-bottom: 3rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.4rem;
+  scroll-behavior: smooth;
 }
 
 .services-grid {
   display: grid;
-  gap: 2rem;
+  gap: 6.83rem;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr ));
-  padding: 20px;
+  padding: 30px;
 }
-
 
 .service-card {
-  background-color: var(--card);
-  padding: 2rem;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transform: translateY(0);
+  padding: 3rem;
+  width: 330px; /* Add desired width for card */
+  box-shadow: 0 0 5px var(--primary);
+  border: 1px solid var(--radius);
+  backdrop-filter: blur(10px);
+  background: var(--card);
   border-radius: var(--radius);
-  box-shadow: 0 0 10px var(--primary);
-  transition: transform 0.3s ease;
 }
 
+.Process-grid {
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr ));
+  padding: 30px;
+}
+
+.Process-card {
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transform: translateY(0);
+  padding: 2rem;
+  width: 260px; /* Add desired width for card */
+  box-shadow: 0 0 5px var(--primary);
+  border: 1px solid var(--radius);
+  backdrop-filter: blur(10px);
+  background: var(--card);
+  border-radius: var(--radius);
+}
+
+/* Curved arrow between process cards */
+.Process-card {
+  position: relative;
+}
+
+  /* Arrow container */
+  .Process-card:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    right: -40px;
+    top: 50%;
+    transform: translateY(-450%);
+    width:60px;
+    height: 40px;
+    pointer-events: none;
+    background: none;
+    z-index: 1;
+    /* SVG curved arrow as background image */
+    background-image: url("data:image/svg+xml;utf8,<svg width='60' height='40' xmlns='http://www.w3.org/2000/svg'><path d='M5 35 Q30 0 55 35' stroke='%2315ad15' stroke-width='4' fill='none' marker-end='url(%23arrowhead)'/><defs><marker id='arrowhead' markerWidth='8' markerHeight='8' refX='4' refY='4' orient='auto'><polygon points='0 0, 8 4, 0 8' fill='%2315ad15'/></marker></defs></svg>");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+
+
 .service-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-10px);
   box-shadow: 0 0 15px var(--hover);
 }
 
@@ -259,7 +318,75 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 1rem;
+  transition: all 0.s ease;
 }
+
+.service-card:hover .service-icon {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px -5px var(--hover);
+}
+
+.section-title {
+  position: relative;
+  display: inline-block;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70px;
+    height: 4px;
+    background: linear-gradient(to right, #2563eb, #3b82f6);
+    border-radius: 2px;
+}
+
+ .gradient-text {
+  background: linear-gradient(90deg, var(--primary), #83d68b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.floating {
+  animation: floating 3s ease-in-out infinite;
+}
+        
+@keyframes floating {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0px); }
+}
+
+.pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.hero-pattern {
+  background-image: radial-gradient(#dbeafe 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+.process-step {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.process-step:hover {
+  transform: translateY(-5px);
+}
+
+
+
+
+
 /*project page styles*/
 .projects-header {
   text-align: center;
@@ -685,8 +812,8 @@ body {
 
   @media (max-width: 768px) {
     .image-wrapper {
-      width: 200px;
-      height: 200px;
+      width: 00px;
+      height: 00px;
     }
   }
 
