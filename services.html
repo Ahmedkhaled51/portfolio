@@ -7,14 +7,13 @@
     <title>Services - AK</title>
     <link rel="stylesheet" href="styles.css" />
     <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
       rel="stylesheet"
     />
   </head>
   <body class="dark">
     <nav class="navbar">
-      
-        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+      <button class="menu-btn" onclick="toggleMenu()">☰</button>
       <div class="nav-container">
         <a href="index.html" class="logo">AK</a>
         <div class="nav-items">
@@ -27,69 +26,186 @@
             Download resume
           </a>
         </div>
-        <button class="menu-btn">
-          <i class="bx bx-menu"></i>
-        </button>
       </div>
     </nav>
 
     <main class="services-page">
-      <div class="services-header">
-        <h1>Services</h1>
-        <p>
+      <section class="py-16 md:py-24 px-6 relative">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+            <div class="relative z-10">
+              <div class="services-header">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6 text-dark">
+                  My Services
+                </h1>
+                <h3 class="text-4xl md:text-5xl font-bold mb-6 text-dark">
+                    Transform Data Into <span class="gradient-text">Actionable Insights</span>
+                </h3>
+        <h6 class="text-lg text-gray-600 mb-8 max-w-2xl">
           Comprehensive data science and analysis services to help you make
           data-driven decisions
-        </p>
+        </h6>
       </div>
-
+      
       <div class="services-grid">
+        <!-- Power BI Development -->
         <div class="service-card">
           <div class="service-icon">
-            <i class="bx bx-chart"></i>
+            <i class="fas fa-chart-pie text-3xl"></i>
           </div>
           <h2>Power BI Development</h2>
-          <p>
+            <p>
             Create interactive dashboards and reports using Power BI for data
-            visualization
-          </p>
+            visualization. Transform complex data into intuitive visual
+            representations.
+            </p>
+            <div style="margin-top: 1em;"></div>
+            <ul>
+              <li>
+                <span>Interactive Dashboards</span>
+              </li>
+              <li>
+                <span>Data Modeling</span>
+              </li>
+              <li>
+                <span>Real-time Reporting</span>
+              </li>
+            </ul>
         </div>
-
-        
-          <div class="service-card">
-            <div class="service-icon">
-              <i class="bx bx-chart"></i>
+        <!-- Data Analysis Excel -->
+        <div class="service-card">
+          <div class="service-icon">
+              <i class="fas fa-file-excel text-2xl"></i>
             </div>
             <h2>Data Analysis Excel</h2>
             <p>
-              using power Excel take data from customer and clean it and make dashboard to help in make decision of under stand the data
+             Using powerful Excel techniques to clean data, create dashboards, and help you make informed decisions through comprehensive data understanding.
             </p>
+            <div style="margin-top: 1em;"></div>
+            <ul>
+              <li>
+                  <span>Data Cleaning & Preparation</span>
+              </li>
+              <li>   
+                  <span>Advanced Formulas</span>
+              </li>
+              <li>
+                  <span>Pivot Tables & Dashboards</span>
+              </li>
+          </ul>
           </div>
 
         
           <div class="service-card">
             <div class="service-icon">
-              <i class="bx bx-code"></i>
+              <i class="fab fa-python text-2xl"></i>
             </div>
-            <h2>Analsis by python</h2>
+            <h2>Analysis by Python</h2>
             <p>
-              take data from customer and clean, Analyze and devlop ML model
+              Take data from customers, clean it, analyze it, and develop machine learning models to uncover patterns and make predictions.
             </p>
+            <div style="margin-top: 1em;"></div>
+            <ul>
+              <li>
+                  <span>Data Cleaning & Preprocessing</span>
+              </li>
+              <li>   
+                  <span>Statistical Analysis</span>
+              </li>
+              <li>
+                  <span>Machine Learning Models</span>
+              </li>
+              <li>
+                  <span>Deep Learning Models</span>
+              </li>
+          </ul>
           </div>
 
           
             <div class="service-card">
               <div class="service-icon">
-                <i class="bx bx-code"></i>
+                <i class="fab fa-r text-2xl"></i>
               </div>
-              <h2>Analsis by R</h2>
+              <h2>Analysis by R</h2>
               <p>
-                take data from customer and clean, Analyze and devlop ML model
+                Take data from customers, clean it, analyze it, and develop machine learning models using R for statistical computing and graphics.
               </p>
+              <div style="margin-top: 1em;"></div>
+            <ul>
+              <li>
+                  <span>Data Visualization</span>
+              </li>
+              <li>   
+                  <span>Statistical Modeling</span>
+              </li>
+              <li>
+                  <span>Predictive Analytics</span>
+              </li>
+              <li>
+                  <span>Machine Learning Models</span>
+              </li>
+          </ul>
             </div>
 
             
         <!-- Add more service cards here -->
       </div>
+
+<!-- Process Section -->
+    <section class="py-16 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="section-title text-3xl md:text-4xl font-bold mb-4">My <span class="gradient-text">Process</span></h2>
+                <div style="margin-top: 1em;"></div>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    A structured approach to delivering data science solutions that drive real business value.
+                </p>
+                <div style="margin-top: 2em;"></div>
+            </div>
+            <div class="Process-grid">
+            <div class="Process-card">
+                    <div class="service-icon">
+                        <i class="fab fa-1 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Data Collection</h3>
+                    <p class="text-gray-600">
+                        Gather and assess data sources to understand the scope and requirements of your project.
+                    </p>
+                </div>
+                
+                <div class="Process-card">
+                    <div class="service-icon">
+                        <i class="fab fa-2 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Data Cleaning</h3>
+                    <p class="text-gray-600">
+                        Preprocess and clean data to ensure accuracy and reliability for analysis.
+                    </p>
+                </div>
+                
+                <div class="Process-card">
+                    <div class="service-icon">
+                        <i class="fab fa-3 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Analysis & Modeling</h3>
+                    <p class="text-gray-600">
+                        Apply statistical methods and machine learning algorithms to extract insights.
+                    </p>
+                </div>
+                
+                <div class="Process-card">
+                    <div class="service-icon">
+                        <i class="fab fa-4 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Visualization & Delivery</h3>
+                    <p class="text-gray-600">
+                        Create intuitive dashboards and reports to communicate findings effectively.
+                    </p>
+                </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
     </main>
 
     <script src="script.js"></script>
